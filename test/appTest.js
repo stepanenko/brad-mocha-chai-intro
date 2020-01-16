@@ -27,5 +27,14 @@ describe('App', function() {
     assert.equal(result, 2);
   });
 
-  
+  it('addNumbers should be above 5', function() {
+    const result = addNumbers(3, 4);
+    assert.isAbove(result, 5);
+  });
+
+  it('addNumbers should return a type number', function() {
+    const result = addNumbers('5', 8);    // AssertionError: expected '58' to be a number
+    assert.typeOf(result, 'number');
+  });
+
 });

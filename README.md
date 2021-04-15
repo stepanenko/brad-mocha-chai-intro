@@ -10,4 +10,9 @@ More info:
 
 - [TypeScript for VideoJS](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/video.js)
 
+- [VHS: Video Http Streaming](https://github.com/videojs/http-streaming)
+
+- [VHS: App Example](videojs-http-streaming.netlify.app/)
+
 Updated all on 8.04.2021
+s

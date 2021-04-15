@@ -15,4 +15,3 @@ More info:
 - [VHS: App Example](videojs-http-streaming.netlify.app/)
 
 Updated all on 8.04.2021
-s

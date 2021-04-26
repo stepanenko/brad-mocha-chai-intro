@@ -671,7 +671,7 @@ eval("//[4]   \tNameStartChar\t   ::=   \t\":\" | [A-Z] | \"_\" | [a-z] | [#xC0-
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var video_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! video.js */ \"./node_modules/video.js/dist/video.es.js\");\n/* harmony import */ var videojs_bitrate_graph__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! videojs-bitrate-graph */ \"./node_modules/videojs-bitrate-graph/dist/videojs-bitrate-graph.es.js\");\n\nconsole.log('test');\n\n\n\n\nlet player = (0,video_js__WEBPACK_IMPORTED_MODULE_0__.default)('my-player');\n\nconsole.log(player);\n\nplayer.bitrateGraph();\n\n//# sourceURL=webpack://videjs-advanced/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var video_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! video.js */ \"./node_modules/video.js/dist/video.es.js\");\n/* harmony import */ var videojs_bitrate_graph__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! videojs-bitrate-graph */ \"./node_modules/videojs-bitrate-graph/dist/videojs-bitrate-graph.es.js\");\n\nconsole.log('test');\n\n\n\n\nlet player = (0,video_js__WEBPACK_IMPORTED_MODULE_0__.default)('my-player');\n\nconsole.log(player);\n\nlet graph = player.bitrateGraph({ bitrates: [4, 8, 3, 13, 34] });\nconsole.log(graph);\n\n\n//# sourceURL=webpack://videjs-advanced/./src/index.js?");
 
 /***/ }),
 
